@@ -1,0 +1,37 @@
+*** Link's importante e detalhes dos estudos
+
+---comandos para criar um clone de repositório
+* git clone (Link do repositório no git)
+	criará a pasta que foi criada no GITHUB
+* git status 
+	mostrará todos os arquivos que estavam no repositório
+
+	Entre dentro da pasta do GIT para acessar os arquivos
+* CD (nome da pasta do repositório GIT)
+
+--crie os arquivos que quiser e implemente arquivos de programação
+dentro do repositório
+  Exemplo: Ao realizar um curso de introdução ao GITHUB realizar um
+pasta "introdução ao GIT" e colocar os arquivos dentro
+
+
+-- Comandos para enviar os arquivos para o GITHUB
+*git status
+-para identificar as pastas de implementações criadas
+
+*git add . 
+-adiciona todos os arquivos listado em status
+
+*git status
+-para verificar as condições dos arquivos (se foi listado e colocado em posicição
+para fazer o uploud).
+
+*git commit -m "mensagem do commit que descreve as ações de uplound dos arquivos enviado, no nosso caso
+as descrições/comandos e anotações do curso de introdução ao GITHUB)"
+
+*git status
+-identifica que as alterações ou arquivos foram enviados e preparados para empurrar/fazer uplound para a 
+nuvem (GITHUB)
+
+*git push origin main
+-Envia os arquivos totalmente para a Nuvem/GITHUB.
